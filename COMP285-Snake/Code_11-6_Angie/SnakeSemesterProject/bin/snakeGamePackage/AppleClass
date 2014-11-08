@@ -18,6 +18,7 @@ public class Apple extends Actor {
 	 */
 	public Apple() {
 		super("sprites/apple_small.png");
+		
 		randomGenerator = new Random();
 	}
 	
