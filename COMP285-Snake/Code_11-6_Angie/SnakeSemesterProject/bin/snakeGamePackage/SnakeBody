@@ -1,0 +1,25 @@
+
+import java.util.ArrayList;
+
+import sprites.Bit;
+import ch.aplu.jgamegrid.Actor;
+import ch.aplu.jgamegrid.GameGrid;
+import ch.aplu.jgamegrid.Location;
+
+public class Snake1 extends Actor {
+
+	public Snake1() {
+		super("sprites/squarehead.png");		// call the sprite image
+	}
+	
+	public void act() {
+		{
+		move();                             // moves the actor
+	    if (isNearBorder())               // keeps the actor in the grid
+	      turn(180);                      // method to change the direction of the actor.
+		}
+	}
+
+
+}
+
