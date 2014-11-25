@@ -1,16 +1,14 @@
-package sprites;
+package snakeGamePackage;
+
+import java.awt.event.KeyEvent;
 
 import ch.aplu.jgamegrid.Actor;
+import ch.aplu.jgamegrid.GGKeyListener;
 
-public class Bit extends Actor {  // 
+public class Bit extends Actor{ 
 	public Bit() {
 		super("sprites/squarebody.png");
 	}
-		public void act(){        // intializes a moving class 
-			move();				 // this method moves the bits 
-		    if (isNearBorder())  // keeps track on where the bit is 
-		      turn(180);		 // moves it in the follwing direction
-			
-		}
-	}
+}
+
 
