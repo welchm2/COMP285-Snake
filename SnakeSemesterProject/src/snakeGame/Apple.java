@@ -1,4 +1,4 @@
-package snakeGamePackage;
+package snakeGame;
 
 import ch.aplu.jgamegrid.*;
 
